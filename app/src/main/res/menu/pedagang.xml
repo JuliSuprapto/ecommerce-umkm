@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Master">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/dashboard"
+                    android:icon="@drawable/ic_clothes_shop"
+                    android:title="Dashboard" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Toko">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/addToko"
+                    android:icon="@drawable/ic_shop_bag"
+                    android:title="Toko Anda" />
+                <item
+                    android:id="@+id/addItem"
+                    android:icon="@drawable/ic_recent_actors_black_24dp"
+                    android:title="Kelola Barang" />
+                <item
+                    android:id="@+id/sendItem"
+                    android:icon="@drawable/ic_local_shipping_black_24dp"
+                    android:title="Pengiriman Barang" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Extra">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/me"
+                    android:icon="@drawable/ic_me"
+                    android:title="Account" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_sentiment_dissatisfied_black_24dp"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Ecommerce UMKM</string>
+    <string name="desc_app_name">Seputih Raman, Lampung Tengah.</string>
+
+    <string name="dinas_name">Ecommerce UMKM</string>
+    <string name="dinas_place">Lampung Tengah</string>
+    <string name="dinas_slogan">Mari bertransaksi</string>
+
+    <string name="lorem">Lorem Ipsum</string>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur consectetur adipiscing elit</string>
+
+    <string name="desc_slogan">Masuk sekarang dan mulai bertransaksi</string>
+    <string name="login">Masuk Sekarang</string>
+    <string name="regist_title">Anda belum memiliki akun ?</string>
+    <string name="regist_desc">Daftar disini !</string>
+    <string name="or">atau</string>
+    <string name="slogan">Daftarkan diri anda sebagai pengguna atau mitra UMKM.</string>
+    <string name="username">Username...</string>
+    <string name="password">Password...</string>
+    <string name="slogan_regist">Mari bergabung bersama kami...</string>
+    <string name="fullname">Nama lengkap...</string>
+    <string name="phone">Nomor telepon...</string>
+    <string name="email">Email address...</string>
+    <string name="address">Alamat lengkap...</string>
+    <string name="regist_pembeli">Daftar Sebagai Pembeli</string>
+    <string name="regist_pedagang">Daftar Sebagai UMKM</string>
+    <string name="loading">Mohon tunggu sebentar...</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="regist_toko">Daftarkan Toko</string>
+</resources>

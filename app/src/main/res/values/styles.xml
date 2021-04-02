@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.popUpOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewStyleToolbar" parent="android:Widget.TextView">
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#AE000000</item>
+    </style>
+
+    <style name="toastStyleSuccess">
+        <item name="colorBackground">@color/green</item>
+        <item name="textColor">@color/white</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="iconRight">@drawable/ic_check_black_24dp</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <style name="toastStyleDanger">
+        <item name="colorBackground">@color/red</item>
+        <item name="textColor">@color/white</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="iconRight">@drawable/ic_sentiment_very_dissatisfied_black_24dp</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <style name="toastStyleWarning">
+        <item name="colorBackground">@color/orange</item>
+        <item name="textColor">@color/white</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="iconRight">@drawable/ic_error_outline_black_24dp</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <style name="toastStyleDefault">
+        <item name="colorBackground">@color/green</item>
+        <item name="textColor">@color/white</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="iconRight">@drawable/ic_sentiment_dissatisfied_black_24dp</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+</resources>

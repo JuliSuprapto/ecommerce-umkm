@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Master">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/dashboard_pembeli"
+                    android:icon="@drawable/ic_clothes_shop"
+                    android:title="Dashboard" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Barang">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/keranjang_pembeli"
+                    android:icon="@drawable/ic_shop_bag"
+                    android:title="Keranjang" />
+                <item
+                    android:id="@+id/pembayaran_pembeli"
+                    android:icon="@drawable/ic_monetization_on_black_24dp"
+                    android:title="Pembayaran" />
+                <item
+                    android:id="@+id/pengiriman_pembeli"
+                    android:icon="@drawable/ic_local_shipping_black_24dp"
+                    android:title="Pengiriman" />
+                <item
+                    android:id="@+id/pembelian_pembeli"
+                    android:icon="@drawable/ic_local_mall_black_24dp"
+                    android:title="Catatan Pembelian" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Extra">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/me_pembeli"
+                    android:icon="@drawable/ic_me"
+                    android:title="Account" />
+                <item
+                    android:id="@+id/logout_pembeli"
+                    android:icon="@drawable/ic_sentiment_dissatisfied_black_24dp"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>
