@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ecommerce_v1">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rian.ecommerce_v1">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,30 +14,31 @@
         android:required="true" />
 
     <application
-        android:name=".utils.App"
+        android:name="com.rian.ecommerce_v1.utils.App"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_icon_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon, android:theme">
 
-        <activity android:name=".pembeli.UpdateProfilePembeli" />
-        <activity android:name=".pembeli.ListItemToko" />
-        <activity android:name=".pedagang.UpdateItemToko" />
-        <activity android:name=".pedagang.UpdateProfile" />
-        <activity android:name=".pedagang.AddItemToko" />
-        <activity android:name=".pembeli.MainPembeli" />
-        <activity android:name=".pedagang.MainPedagang" />
-        <activity android:name=".access.RegistSystem" />
-        <activity android:name=".access.LoginSystem" />
+        <activity android:name="com.rian.ecommerce_v1.pembeli.UpdateProfilePembeli" />
+        <activity android:name="com.rian.ecommerce_v1.pembeli.ListItemToko" />
+        <activity android:name="com.rian.ecommerce_v1.pedagang.UpdateItemToko" />
+        <activity android:name="com.rian.ecommerce_v1.pedagang.UpdateProfile" />
+        <activity android:name="com.rian.ecommerce_v1.pedagang.AddItemToko" />
+        <activity android:name="com.rian.ecommerce_v1.pembeli.MainPembeli" />
+        <activity android:name="com.rian.ecommerce_v1.pedagang.MainPedagang" />
+        <activity android:name="com.rian.ecommerce_v1.access.RegistSystem" />
+        <activity android:name="com.rian.ecommerce_v1.access.LoginSystem" />
 
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name=".IntroSlider">
+        <activity android:name="com.rian.ecommerce_v1.IntroSlider">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
